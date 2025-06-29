@@ -1,6 +1,6 @@
 // src/components/DashboardNavbar.tsx
 import React from "react";
-import { UseAuthContext } from "../context/ AuthContext"; // Import useAuth to get user information
+import { UseAuthContext } from "@/context/AuthContext";
 
 const DashboardNavbar: React.FC = () => {
   const { user, role } = UseAuthContext(); // Access the current logged-in user object

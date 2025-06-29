@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"; // 🔁 For "Back to Home"
 import AssignedCompetitions from "../../components/judge/AssignedCompetitions";
 import AwardMarksComments from "../../components/judge/AwardMarksComments";
 import JudgeStatistics from "../../components/judge/JudgeStatistics";
-import { UseAuthContext } from "../../context/ AuthContext";
+import { UseAuthContext } from "@/context/AuthContext";
 import { UseAuthSignOut } from "../../Api/Auth";
 
 const JudgeDashboard: React.FC = () => {

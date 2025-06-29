@@ -3,7 +3,7 @@ import CompetitionManagement from "../../components/admin/CompetitionManagement"
 import JudgeManagement from "../../components/admin/JudgeManagement";
 import StatisticsAnalytics from "../../components/admin/StatisticsAnalytics";
 import SchoolRequests from "../../components/admin/SchoolRequests";
-import { UseAuthContext } from "../../context/ AuthContext";
+import { UseAuthContext } from "@/context/AuthContext";
 import { UseAuthSignOut } from "../../Api/Auth";
 import { Loader2 } from "lucide-react";
 import { useNavigate } from "react-router-dom";

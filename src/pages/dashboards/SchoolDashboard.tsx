@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { UseAuthContext } from "../../context/ AuthContext";
+import { UseAuthContext } from "@/context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 import AvailableCompetitions from "../../components/school/AvailableCompetitions";

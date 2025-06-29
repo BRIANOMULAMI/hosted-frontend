@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import type { UserProps } from "./SignupPage";
 import { UseAuthLogin } from "../Api/Auth";
 import { Loader2 } from "lucide-react";
-import { UseAuthContext } from "../context/ AuthContext";
+import { UseAuthContext } from "@/context/AuthContext";
 
 const LoginPage: React.FC = () => {
   const {

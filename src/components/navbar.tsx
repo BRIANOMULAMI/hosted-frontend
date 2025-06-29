@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { UseAuthContext } from "../context/ AuthContext";
+import { UseAuthContext } from "@/context/AuthContext";
 import { UseAuthSignOut } from "../Api/Auth";
 import { Loader2 } from "lucide-react";
 
